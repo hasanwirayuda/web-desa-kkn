@@ -42,17 +42,35 @@
         <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
           <h3 class="text-xl font-semibold mb-3 text-green-700">Visi</h3>
           <p class="text-gray-700">
-            “Terwujudnya Desa Pangarengan yang maju, mandiri, dan sejahtera
-            dengan semangat gotong royong dan kearifan lokal.”
+            “Terwujudnya Desa Pangarengan Sebagai Daerah Agrobisnis, Mandiri,
+            Sejahtera dan Berwawasan Lingkungan yang Berbasis Gotong Royong pada
+            tahun 2020”.
           </p>
         </div>
         <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
           <h3 class="text-xl font-semibold mb-3 text-green-700">Misi</h3>
-          <ul class="list-disc list-inside text-gray-700 space-y-2">
-            <li>Meningkatkan pelayanan publik yang cepat dan transparan.</li>
-            <li>Mendorong pertumbuhan ekonomi berbasis potensi desa.</li>
-            <li>Melestarikan budaya dan memperkuat nilai gotong royong.</li>
-            <li>Mengembangkan pendidikan dan kesehatan masyarakat.</li>
+          <ul class="list-disc text-gray-700 space-y-2">
+            <li>
+              Meningkatkan kualitas SDM yang cerdas, sehat, terampil, mandiri,
+              berakhlak mulia, serta beriman dan bertaqwa kepada Tuhan Yang Maha
+              Esa.
+            </li>
+            <li>
+              Meningkatkan kesejahteraan masyarakat melalui pendidikan dan
+              kesehatan yang berlandaskan iman dan takwa.
+            </li>
+            <li>
+              Mengoptimalkan potensi sumber daya alam untuk pengembangan ekonomi
+              kerakyatan yang berkelanjutan.
+            </li>
+            <li>
+              Meningkatkan produktivitas dan nilai tambah hasil potensi daerah
+              dengan tetap memperhatikan kelestarian lingkungan.
+            </li>
+            <li>
+              Meningkatkan kualitas sarana dan prasarana desa melalui semangat
+              gotong royong.
+            </li>
           </ul>
         </div>
       </div>
@@ -352,6 +370,6 @@
 </template>
 
 <script setup>
-import hero2 from "~/assets/images/hero2.png";
-import avatar from "~/assets/images/avatar-12.png";
+import hero2 from '~/assets/images/hero2.png';
+import avatar from '~/assets/images/avatar-12.png';
 </script>

@@ -33,14 +33,30 @@
 import santunan from '~/assets/images/santunan.jpg';
 import kunjunganMi from '~/assets/images/kunjungan-mi.jpg';
 import beras from '~/assets/images/beras.jpeg';
-import kantorDesa from '~/assets/images/kantor-desa.png';
+import senam from '~/assets/images/senam.jpg';
+import jumantik from '~/assets/images/jumantik.webp';
+import bendera from '~/assets/images/bendera.webp';
 const posts = [
   {
-    slug: 'santunan-anak-yatim',
-    title: 'Santunan Anak Yatim',
+    slug: 'pemasangan-bendera-17-agustus',
+    title: 'Pemasangan Bendera 17 Agustus',
     excerpt:
-      'Kegiatan rutin Desa Pangarengan dalam rangka mempererat silaturahmi dan kepedulian sosial.',
-    image: `${santunan}?text=Santunan+Anak+Yatim`,
+      'Menjelang Hari Kemerdekaan Republik Indonesia, warga Desa Pangarengan bergotong royong memasang bendera Merah Putih.',
+    image: `${bendera}?text=Pemasangan+Bendera+17+Agustus`,
+  },
+  {
+    slug: 'jumantik-cegah-dbd-di-pangarengan',
+    title: 'Jumantik Cegah DBD di Pangarengan',
+    excerpt:
+      'Bergotong royong memeriksa dan membersihkan tempat-tempat yang berpotensi menjadi sarang nyamuk.',
+    image: `${jumantik}?text=Jumantik+Cegah+DBD+di+Pangarengan`,
+  },
+  {
+    slug: 'pembagian-beras',
+    title: 'Pembagian Beras untuk Masyarakat',
+    excerpt:
+      'Sebagai bentuk kepedulian, desa menyalurkan bantuan beras kepada masyarakat yang membutuhkan.',
+    image: `${beras}?text=Pembagian+Beras`,
   },
   {
     slug: 'kunjungan-mi',
@@ -50,13 +66,6 @@ const posts = [
     image: `${kunjunganMi}?text=Kunjungan+MI`,
   },
   {
-    slug: 'pembagian-beras',
-    title: 'Pembagian Beras untuk Masyarakat',
-    excerpt:
-      'Sebagai bentuk kepedulian, desa menyalurkan bantuan beras kepada masyarakat yang membutuhkan.',
-    image: `${beras}?text=Pembagian+Beras`,
-  },
-  {
     slug: 'santunan-anak-yatim',
     title: 'Santunan Anak Yatim',
     excerpt:
@@ -64,18 +73,11 @@ const posts = [
     image: `${santunan}?text=Santunan+Anak+Yatim`,
   },
   {
-    slug: 'kunjungan-mi',
-    title: 'Kunjungan ke Madrasah Ibtidaiyah',
+    slug: 'serunya-senam-sore-bareng-ibu-ibu-pangarengan',
+    title: 'Serunya Senam Sore Bareng Ibu-Ibu Pangarengan',
     excerpt:
-      'Pemerintah desa bersama perangkat melakukan kunjungan ke MI setempat untuk mendukung pendidikan.',
-    image: `${kunjunganMi}?text=Kunjungan+MI`,
-  },
-  {
-    slug: 'pembagian-beras',
-    title: 'Pembagian Beras untuk Masyarakat',
-    excerpt:
-      'Sebagai bentuk kepedulian, desa menyalurkan bantuan beras kepada masyarakat yang membutuhkan.',
-    image: `${beras}?text=Pembagian+Beras`,
+      'Sore yang cerah di Desa Pangarengan semakin meriah dengan kegiatan senam bersama ibu-ibu',
+    image: `${senam}?text=Serunya+Senam+Sore+Bareng+Ibu-Ibu+Pangarengan`,
   },
 ];
 </script>

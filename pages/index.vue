@@ -39,11 +39,13 @@
         <div>
           <h2 class="text-3xl font-bold mb-4">Tentang Desa Pangarengan</h2>
           <p class="text-gray-700 leading-relaxed mb-4">
-            Desa Pangarengan adalah salah satu desa yang berada di Kabupaten
-            Cirebon. Desa ini memiliki potensi besar di bidang pertanian,
-            perikanan, dan UMKM yang berkembang pesat. Selain itu, masyarakat
-            Desa Pangarengan dikenal sangat menjunjung tinggi nilai gotong
-            royong dan kebersamaan.
+            Pangarengan adalah desa di kecamatan Legon Kulon, Subang, Jawa
+            Barat, Indonesia. Desa Pangarengan yang terletak di Pesisir pantai
+            Laut jawa ini mempunyai Luas Wilayah 1883,7 Ha, Dengan Luas
+            Pesawahan 371.1 Ha, Hutan atau Tambak 1087 Ha dan Lainnya 425,6 Ha
+            dengan Jumlah Penduduk 3,759 Jiwa dengan 17 RT 7 RW Dan 5 Dusun
+            yakni; Langgen, Pelabuhan, Pelabuhan Sebrang, Kalen Balongan, dan
+            Pancer Wetan.
           </p>
           <p class="text-gray-700 leading-relaxed mb-6">
             Dengan dukungan pemerintah desa serta partisipasi aktif warga,
@@ -68,26 +70,42 @@
       <div class="grid md:grid-cols-3 gap-8 text-center">
         <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
           <h3 class="text-xl font-semibold mb-2">Pertanian</h3>
-          <img :src="pertanian" alt="" class="rounded-xl mb-2" />
-          <p class="text-gray-600">
+          <img
+            :src="pertanian"
+            alt=""
+            class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
+          />
+          <p class="text-gray-600 mt-4">
             Desa Pangarengan memiliki lahan pertanian subur dengan hasil utama
-            berupa padi, jagung, dan sayur-sayuran.
+            berupa padi, jagung, dan sayur-sayuran. Potensi ini mendukung
+            ketahanan pangan sekaligus menjadi sumber penghasilan utama
+            masyarakat.
           </p>
         </div>
         <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
           <h3 class="text-xl font-semibold mb-2">Perikanan</h3>
-          <img :src="perikanan" alt="" class="rounded-xl mb-2" />
-          <p class="text-gray-600">
+          <img
+            :src="perikanan"
+            alt=""
+            class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
+          />
+          <p class="text-gray-600 mt-4">
             Terdapat kolam dan tambak yang dimanfaatkan masyarakat untuk usaha
-            budidaya ikan air tawar.
+            budidaya ikan air tawar. Potensi ini menjadi salah satu penopang
+            ekonomi sekaligus mendukung kebutuhan protein masyarakat.
           </p>
         </div>
         <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
-          <h3 class="text-xl font-semibold mb-2">Budaya & Gotong Royong</h3>
-          <img :src="hero1" alt="" class="rounded-xl mb-2" />
-          <p class="text-gray-600">
-            Kegiatan adat, kesenian, dan semangat gotong royong menjadi ciri
-            khas masyarakat Desa Pangarengan.
+          <h3 class="text-xl font-semibold mb-2">Pantai Cirewang</h3>
+          <img
+            :src="pantaiCirewang"
+            alt=""
+            class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
+          />
+          <p class="text-gray-600 mt-4">
+            Pantai Cirewang merupakan destinasi wisata alam unggulan dengan
+            keindahan pantai, hutan mangrove, dan suasana asri yang menjadi daya
+            tarik utama bagi wisatawan lokal maupun mancanegara.
           </p>
         </div>
       </div>
@@ -154,7 +172,6 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -171,6 +188,7 @@ import perikanan from '~/assets/images/perikanan.png';
 import santunan from '~/assets/images/santunan.jpg';
 import kunjunganMi from '~/assets/images/kunjungan-mi.jpg';
 import beras from '~/assets/images/beras.jpeg';
+import pantaiCirewang from '~/assets/images/pantai-cirewang.jpg';
 
 const slides = [hero1, hero2, hero3];
 </script>
