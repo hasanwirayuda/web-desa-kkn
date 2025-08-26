@@ -232,6 +232,35 @@
         </div>
       </div>
     </div>
+    <div class="mt-20 grid md:grid-cols-1 gap-8 max-w-6xl mx-auto text-center">
+      <h2 class="text-2xl font-bold text-center mb-6">
+        Daftar Kepala Desa Pangarengan
+      </h2>
+      <div class="overflow-x-auto">
+        <table class="min-w-full border border-gray-300">
+          <thead class="bg-gray-100">
+            <tr class="text-center">
+              <th class="border border-gray-300 px-4 py-2">No</th>
+              <th class="border border-gray-300 px-4 py-2">Nama Kepala Desa</th>
+              <th class="border border-gray-300 px-4 py-2">Periode</th>
+              <th class="border border-gray-300 px-4 py-2">Keterangan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">1</td>
+              <td class="border border-gray-300 px-4 py-2 text-left">
+                Ibu Atifah Noorlela S.ip
+              </td>
+              <td class="border border-gray-300 px-4 py-2">2020 - Sekarang</td>
+              <td class="border border-gray-300 px-4 py-2">
+                Kepala Desa aktif
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
 
     <!-- Data Demografi -->
     <div class="mt-20 mb-16">
@@ -370,6 +399,6 @@
 </template>
 
 <script setup>
-import hero2 from '~/assets/images/hero2.png';
-import avatar from '~/assets/images/avatar-12.png';
+import hero2 from "~/assets/images/hero2.png";
+import avatar from "~/assets/images/avatar-12.png";
 </script>

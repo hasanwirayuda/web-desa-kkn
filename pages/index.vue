@@ -16,7 +16,6 @@
             class="w-full h-full object-cover brightness-50"
             alt="Hero Slide"
           />
-          <h1>Hello World</h1>
         </SwiperSlide>
       </Swiper>
     </section>
@@ -27,7 +26,7 @@
         <div class="w-full">
           <iframe
             class="w-full aspect-video rounded-lg shadow-lg"
-            src="https://www.youtube.com/embed/zX1vjBuqsP4"
+            src="https://www.youtube.com/embed/WA5-80j8VNw"
             title="Sambutan Desa Pangarengan"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -83,7 +82,7 @@
           </p>
         </div>
         <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
-          <h3 class="text-xl font-semibold mb-2">Perikanan</h3>
+          <h3 class="text-xl font-semibold mb-2">Tambak & Empang</h3>
           <img
             :src="perikanan"
             alt=""
@@ -97,6 +96,84 @@
         </div>
         <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
           <h3 class="text-xl font-semibold mb-2">Pantai Cirewang</h3>
+          <img
+            :src="pantaiCirewang"
+            alt=""
+            class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
+          />
+          <p class="text-gray-600 mt-4">
+            Pantai Cirewang merupakan destinasi wisata alam unggulan dengan
+            keindahan pantai, hutan mangrove, dan suasana asri yang menjadi daya
+            tarik utama bagi wisatawan lokal maupun mancanegara.
+          </p>
+        </div>
+        <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Pantai Boom</h3>
+          <img
+            :src="pantaiCirewang"
+            alt=""
+            class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
+          />
+          <p class="text-gray-600 mt-4">
+            Pantai Cirewang merupakan destinasi wisata alam unggulan dengan
+            keindahan pantai, hutan mangrove, dan suasana asri yang menjadi daya
+            tarik utama bagi wisatawan lokal maupun mancanegara.
+          </p>
+        </div>
+        <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Area Nelayan & Hasil Laut</h3>
+          <img
+            :src="pantaiCirewang"
+            alt=""
+            class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
+          />
+          <p class="text-gray-600 mt-4">
+            Pantai Cirewang merupakan destinasi wisata alam unggulan dengan
+            keindahan pantai, hutan mangrove, dan suasana asri yang menjadi daya
+            tarik utama bagi wisatawan lokal maupun mancanegara.
+          </p>
+        </div>
+        <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Peternakan Ayam</h3>
+          <img
+            :src="pantaiCirewang"
+            alt=""
+            class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
+          />
+          <p class="text-gray-600 mt-4">
+            Pantai Cirewang merupakan destinasi wisata alam unggulan dengan
+            keindahan pantai, hutan mangrove, dan suasana asri yang menjadi daya
+            tarik utama bagi wisatawan lokal maupun mancanegara.
+          </p>
+        </div>
+        <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Pelelangan Ikan</h3>
+          <img
+            :src="pantaiCirewang"
+            alt=""
+            class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
+          />
+          <p class="text-gray-600 mt-4">
+            Pantai Cirewang merupakan destinasi wisata alam unggulan dengan
+            keindahan pantai, hutan mangrove, dan suasana asri yang menjadi daya
+            tarik utama bagi wisatawan lokal maupun mancanegara.
+          </p>
+        </div>
+        <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Tambak Garam</h3>
+          <img
+            :src="pantaiCirewang"
+            alt=""
+            class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
+          />
+          <p class="text-gray-600 mt-4">
+            Pantai Cirewang merupakan destinasi wisata alam unggulan dengan
+            keindahan pantai, hutan mangrove, dan suasana asri yang menjadi daya
+            tarik utama bagi wisatawan lokal maupun mancanegara.
+          </p>
+        </div>
+        <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Produk Olahan Rumahan</h3>
           <img
             :src="pantaiCirewang"
             alt=""
@@ -172,23 +249,23 @@
 </template>
 
 <script setup>
-import { Swiper, SwiperSlide } from 'swiper/vue';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import { Swiper, SwiperSlide } from "swiper/vue";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 // Import gambar dari assets
-import hero1 from '~/assets/images/hero1.jpg';
-import hero2 from '~/assets/images/hero2.png';
-import hero3 from '~/assets/images/hero3.png';
-import pertanian from '~/assets/images/pertanian.png';
-import perikanan from '~/assets/images/perikanan.png';
-import santunan from '~/assets/images/santunan.jpg';
-import kunjunganMi from '~/assets/images/kunjungan-mi.jpg';
-import beras from '~/assets/images/beras.jpeg';
-import pantaiCirewang from '~/assets/images/pantai-cirewang.jpg';
+import hero1 from "~/assets/images/hero1.jpg";
+import hero2 from "~/assets/images/hero2.png";
+import hero3 from "~/assets/images/hero3.png";
+import pertanian from "~/assets/images/pertanian.png";
+import perikanan from "~/assets/images/perikanan.png";
+import santunan from "~/assets/images/santunan.jpg";
+import kunjunganMi from "~/assets/images/kunjungan-mi.jpg";
+import beras from "~/assets/images/beras.jpeg";
+import pantaiCirewang from "~/assets/images/pantai-cirewang.jpg";
 
 const slides = [hero1, hero2, hero3];
 </script>

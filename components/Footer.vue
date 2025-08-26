@@ -43,7 +43,11 @@
           >
             <img :src="tiktok" alt="Tt Icon" class="w-11" />
           </a>
-          <a href="#" aria-label="Youtube" target="_blank">
+          <a
+            href="https://www.youtube.com/@kknpangarengankelompok22"
+            aria-label="Youtube"
+            target="_blank"
+          >
             <img :src="youtube" alt="Yt Icon" class="w-12" />
           </a>
         </div>
@@ -58,8 +62,8 @@
 </template>
 
 <script setup>
-import logoKkn from '~/assets/images/logo-kkn.png';
-import instagram from '~/assets/images/instagram.svg';
-import tiktok from '~/assets/images/tiktok.svg';
-import youtube from '~/assets/images/youtube.svg';
+import logoKkn from "~/assets/images/logo-kkn.png";
+import instagram from "~/assets/images/instagram.svg";
+import tiktok from "~/assets/images/tiktok.svg";
+import youtube from "~/assets/images/youtube.svg";
 </script>
