@@ -40,11 +40,11 @@
           <p class="text-gray-700 leading-relaxed mb-4">
             Pangarengan adalah desa di kecamatan Legon Kulon, Subang, Jawa
             Barat, Indonesia. Desa Pangarengan yang terletak di Pesisir pantai
-            Laut jawa ini mempunyai Luas Wilayah 1883,7 Ha, Dengan Luas
-            Pesawahan 371.1 Ha, Hutan atau Tambak 1087 Ha dan Lainnya 425,6 Ha
-            dengan Jumlah Penduduk 3,759 Jiwa dengan 17 RT 7 RW Dan 5 Dusun
-            yakni; Langgen, Pelabuhan, Pelabuhan Sebrang, Kalen Balongan, dan
-            Pancer Wetan.
+            Laut jawa ini mempunyai Luas Wilayah 1.883,7 Ha, Dengan Luas
+            Pesawahan 396.70 Ha, Hutan 1.087 Ha, Perkebunan 2, 50 Ha, dan Luas
+            Perkantoran 0, 80 Ha dengan Jumlah Penduduk 4.932 Jiwa dengan 17 RT
+            7 RW Dan 5 Dusun yakni; Krajan, Pelabuhan, Pelabuhan Sebrang, Kalen
+            Balongan, dan Pancer Wetan.
           </p>
           <p class="text-gray-700 leading-relaxed mb-6">
             Dengan dukungan pemerintah desa serta partisipasi aktif warga,
@@ -110,7 +110,7 @@
         <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
           <h3 class="text-xl font-semibold mb-2">Pantai Boom</h3>
           <img
-            :src="pantaiCirewang"
+            :src="pantaiBoom"
             alt=""
             class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
           />
@@ -123,7 +123,7 @@
         <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
           <h3 class="text-xl font-semibold mb-2">Area Nelayan & Hasil Laut</h3>
           <img
-            :src="pantaiCirewang"
+            :src="PemukimanNelayan"
             alt=""
             class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
           />
@@ -136,7 +136,7 @@
         <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
           <h3 class="text-xl font-semibold mb-2">Peternakan Ayam</h3>
           <img
-            :src="pantaiCirewang"
+            :src="PeternakanAyam"
             alt=""
             class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
           />
@@ -149,7 +149,7 @@
         <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
           <h3 class="text-xl font-semibold mb-2">Pelelangan Ikan</h3>
           <img
-            :src="pantaiCirewang"
+            :src="Pelelangan"
             alt=""
             class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
           />
@@ -162,7 +162,7 @@
         <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
           <h3 class="text-xl font-semibold mb-2">Tambak Garam</h3>
           <img
-            :src="pantaiCirewang"
+            :src="TambakGaram"
             alt=""
             class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
           />
@@ -175,7 +175,7 @@
         <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
           <h3 class="text-xl font-semibold mb-2">Produk Olahan Rumahan</h3>
           <img
-            :src="pantaiCirewang"
+            :src="Keripik"
             alt=""
             class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
           />
@@ -261,11 +261,16 @@ import hero1 from "~/assets/images/hero1.jpg";
 import hero2 from "~/assets/images/hero2.png";
 import hero3 from "~/assets/images/hero3.png";
 import pertanian from "~/assets/images/pertanian.png";
-import perikanan from "~/assets/images/perikanan.png";
+import perikanan from "~/assets/images/tambak.jpeg";
 import santunan from "~/assets/images/santunan.jpg";
 import kunjunganMi from "~/assets/images/kunjungan-mi.jpg";
 import beras from "~/assets/images/beras.jpeg";
 import pantaiCirewang from "~/assets/images/pantai-cirewang.jpg";
-
+import pantaiBoom from "~/assets/images/pantai-boom.jpeg";
+import Pelelangan from "~/assets/images/pelelangan.jpeg";
+import TambakGaram from "~/assets/images/pembuatan-garam.jpeg";
+import PemukimanNelayan from "~/assets/images/pemukiman-nelayan.jpeg";
+import PeternakanAyam from "~/assets/images/peternakan-ayam.jpg";
+import Keripik from "~/assets/images/kripik.jpeg";
 const slides = [hero1, hero2, hero3];
 </script>

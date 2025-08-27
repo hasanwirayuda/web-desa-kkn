@@ -163,7 +163,7 @@
         </div>
         <div class="bg-white p-6 rounded-xl shadow text-center">
           <img
-            :src="avatar"
+            :src="Salim"
             alt="Kasie Tata Usaha & Umum"
             class="w-24 h-24 mx-auto rounded-full mb-4"
           />
@@ -196,7 +196,7 @@
         </div>
         <div class="bg-white p-6 rounded-xl shadow text-center">
           <img
-            :src="avatar"
+            :src="Iha"
             alt="Kasun 2"
             class="w-20 h-20 mx-auto rounded-full mb-4"
           />
@@ -223,7 +223,7 @@
         </div>
         <div class="bg-white p-6 rounded-xl shadow text-center">
           <img
-            :src="avatar"
+            :src="Toto"
             alt="Kasun 5"
             class="w-20 h-20 mx-auto rounded-full mb-4"
           />
@@ -250,11 +250,115 @@
             <tr>
               <td class="border border-gray-300 px-4 py-2">1</td>
               <td class="border border-gray-300 px-4 py-2 text-left">
-                Ibu Atifah Noorlela S.ip
+                Bpk. Suryadi
               </td>
-              <td class="border border-gray-300 px-4 py-2">2020 - Sekarang</td>
+              <td class="border border-gray-300 px-4 py-2">1965 - 1969</td>
+              <td class="border border-gray-300 px-4 py-2">Kepala Desa</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">2</td>
+              <td class="border border-gray-300 px-4 py-2 text-left">
+                Bpk. Cala
+              </td>
+              <td class="border border-gray-300 px-4 py-2">1969 - 1970</td>
+              <td class="border border-gray-300 px-4 py-2">PJS</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">3</td>
+              <td class="border border-gray-300 px-4 py-2 text-left">
+                Bpl. Cakim
+              </td>
+              <td class="border border-gray-300 px-4 py-2">1970 - 1975</td>
+              <td class="border border-gray-300 px-4 py-2">Kepala Desa</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">4</td>
+              <td class="border border-gray-300 px-4 py-2 text-left">
+                Bpk. Urip Suparjo
+              </td>
+              <td class="border border-gray-300 px-4 py-2">1975 - 1976</td>
+              <td class="border border-gray-300 px-4 py-2">PJS</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">5</td>
+              <td class="border border-gray-300 px-4 py-2 text-left">
+                Bapak Darmomin
+              </td>
+              <td class="border border-gray-300 px-4 py-2">1976 - 1977</td>
+              <td class="border border-gray-300 px-4 py-2">PJS</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">6</td>
+              <td class="border border-gray-300 px-4 py-2 text-left">
+                Bpk. Alan Sutarlan
+              </td>
+              <td class="border border-gray-300 px-4 py-2">1978 - 1983</td>
+              <td class="border border-gray-300 px-4 py-2">Kepala Desa</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">7</td>
+              <td class="border border-gray-300 px-4 py-2 text-left">
+                Bpk. Nurwatin
+              </td>
+              <td class="border border-gray-300 px-4 py-2">1983 - 1985</td>
+              <td class="border border-gray-300 px-4 py-2">PJS</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">8</td>
+              <td class="border border-gray-300 px-4 py-2 text-left">
+                Bpk. Abdul Hanah
+              </td>
+              <td class="border border-gray-300 px-4 py-2">1985 - 1939</td>
+              <td class="border border-gray-300 px-4 py-2">Kepala Desa</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">9</td>
+              <td class="border border-gray-300 px-4 py-2 text-left">
+                Bpk. Casbari
+              </td>
+              <td class="border border-gray-300 px-4 py-2">1993 - 1999</td>
+              <td class="border border-gray-300 px-4 py-2">Kepala Desa</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">10</td>
+              <td class="border border-gray-300 px-4 py-2 text-left">
+                Bpk. Rasji
+              </td>
+              <td class="border border-gray-300 px-4 py-2">1999 - 2000</td>
+              <td class="border border-gray-300 px-4 py-2">PJS</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">11</td>
+              <td class="border border-gray-300 px-4 py-2 text-left">
+                Bpk. Uhem
+              </td>
+              <td class="border border-gray-300 px-4 py-2">2001 - 2006</td>
+              <td class="border border-gray-300 px-4 py-2">Kepala Desa</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">12</td>
+              <td class="border border-gray-300 px-4 py-2 text-left">
+                Ibu Atifah Noorlaela.S.IP
+              </td>
+              <td class="border border-gray-300 px-4 py-2">2006 - 2012</td>
+              <td class="border border-gray-300 px-4 py-2">Kepala Desa</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">13</td>
+              <td class="border border-gray-300 px-4 py-2 text-left">
+                Ibu Atifah Noorlaela.S.IP
+              </td>
+              <td class="border border-gray-300 px-4 py-2">2012 - 2018</td>
+              <td class="border border-gray-300 px-4 py-2">Kepala Desa</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">14</td>
+              <td class="border border-gray-300 px-4 py-2 text-left">
+                Ibu Atifah Noorlaela.S.IP
+              </td>
+              <td class="border border-gray-300 px-4 py-2">2018 - 2026</td>
               <td class="border border-gray-300 px-4 py-2">
-                Kepala Desa aktif
+                Kepala Desa Aktif
               </td>
             </tr>
           </tbody>
@@ -401,4 +505,7 @@
 <script setup>
 import hero2 from "~/assets/images/hero2.png";
 import avatar from "~/assets/images/avatar-12.png";
+import Toto from "~/assets/images/pak-toto.png";
+import Iha from "~/assets/images/iha.jpeg";
+import Salim from "~/assets/images/salim.jpeg";
 </script>
