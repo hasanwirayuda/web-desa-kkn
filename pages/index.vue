@@ -278,4 +278,14 @@ import PemukimanNelayan from '~/assets/images/pemukiman-nelayan.jpeg';
 import PeternakanAyam from '~/assets/images/peternakan-ayam.jpg';
 import Keripik from '~/assets/images/kripik.jpeg';
 const slides = [hero4, hero1, hero3, hero2];
+
+useHead({
+  title: 'Beranda | Desa Pangarengan',
+  meta: [
+    {
+      name: 'description',
+      content: 'Selamat datang di website resmi Desa Pangarengan.',
+    },
+  ],
+});
 </script>

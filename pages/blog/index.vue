@@ -80,4 +80,14 @@ const posts = [
     image: `${senam}?text=Serunya+Senam+Sore+Bareng+Ibu-Ibu+Pangarengan`,
   },
 ];
+
+useHead({
+  title: 'Blog Desa Pangarengan',
+  meta: [
+    {
+      name: 'description',
+      content: 'Artikel, berita, dan kegiatan terbaru Desa Pangarengan.',
+    },
+  ],
+});
 </script>

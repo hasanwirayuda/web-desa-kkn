@@ -503,9 +503,19 @@
 </template>
 
 <script setup>
-import hero2 from "~/assets/images/hero2.png";
-import avatar from "~/assets/images/avatar-12.png";
-import Toto from "~/assets/images/pak-toto.png";
-import Iha from "~/assets/images/iha.jpeg";
-import Salim from "~/assets/images/salim.jpeg";
+import hero2 from '~/assets/images/hero2.png';
+import avatar from '~/assets/images/avatar-12.png';
+import Toto from '~/assets/images/pak-toto.png';
+import Iha from '~/assets/images/iha.jpeg';
+import Salim from '~/assets/images/salim.jpeg';
+
+useHead({
+  title: 'Profil Desa | Desa Pangarengan',
+  meta: [
+    {
+      name: 'description',
+      content: 'Informasi profil Desa Pangarengan, Legonkulon, Subang.',
+    },
+  ],
+});
 </script>

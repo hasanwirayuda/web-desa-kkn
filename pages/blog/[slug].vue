@@ -97,4 +97,16 @@ const posts = {
 
 // Ambil post berdasarkan slug
 const post = posts[route.params.slug];
+
+const slug = route.params.slug;
+
+useHead({
+  title: `Artikel: ${slug} | Desa Pangarengan`,
+  meta: [
+    {
+      name: 'description',
+      content: `Baca artikel lengkap tentang ${slug} di Desa Pangarengan.`,
+    },
+  ],
+});
 </script>

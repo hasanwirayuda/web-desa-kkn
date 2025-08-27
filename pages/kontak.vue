@@ -80,3 +80,16 @@
     </div>
   </section>
 </template>
+
+<script setup>
+useHead({
+  title: 'Kontak | Desa Pangarengan',
+  meta: [
+    {
+      name: 'description',
+      content:
+        'Hubungi Pemerintah Desa Pangarengan melalui alamat, email, atau telepon.',
+    },
+  ],
+});
+</script>
