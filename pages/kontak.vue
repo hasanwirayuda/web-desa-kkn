@@ -19,11 +19,14 @@
       </div>
       <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
         <h3 class="text-xl font-bold text-black mb-2">Email</h3>
-        <p class="text-gray-700">desapangarengan@mail.com</p>
+        <p class="text-gray-700">
+          pangarenganasri2018.pemdes <br />
+          @gmail.com
+        </p>
       </div>
       <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
         <h3 class="text-xl font-bold text-black mb-2">Telepon</h3>
-        <p class="text-gray-700">+62 812 3456 7890</p>
+        <p class="text-gray-700">+62 821-2566-6116</p>
       </div>
     </div>
 
@@ -32,16 +35,19 @@
       <h2 class="text-2xl font-bold text-center mb-6">Kirim Pesan</h2>
       <form class="bg-white shadow p-8 rounded-xl space-y-4">
         <input
+          required
           type="text"
           placeholder="Nama"
           class="w-full border border-gray-300 p-3 rounded-lg focus:ring-2 focus:ring-green-500 outline-none"
         />
         <input
+          required
           type="email"
           placeholder="Email"
           class="w-full border border-gray-300 p-3 rounded-lg focus:ring-2 focus:ring-green-500 outline-none"
         />
         <textarea
+          required
           rows="5"
           placeholder="Pesan"
           class="w-full border border-gray-300 p-3 rounded-lg focus:ring-2 focus:ring-green-500 outline-none"

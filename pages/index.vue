@@ -115,9 +115,9 @@
             class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
           />
           <p class="text-gray-600 mt-4">
-            Pantai Cirewang merupakan destinasi wisata alam unggulan dengan
-            keindahan pantai, hutan mangrove, dan suasana asri yang menjadi daya
-            tarik utama bagi wisatawan lokal maupun mancanegara.
+            Pantai Boom merupakan salah satu destinasi wisata bahari unggulan
+            yang dimiliki Desa Pangarengan. Pantai ini menawarkan pemandangan
+            laut yang indah dengan hamparan pasir yang luas.
           </p>
         </div>
         <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
@@ -128,9 +128,10 @@
             class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
           />
           <p class="text-gray-600 mt-4">
-            Pantai Cirewang merupakan destinasi wisata alam unggulan dengan
-            keindahan pantai, hutan mangrove, dan suasana asri yang menjadi daya
-            tarik utama bagi wisatawan lokal maupun mancanegara.
+            Dengan kekayaan hasil laut dan semangat gotong royong masyarakat
+            nelayan, Desa Pangarengan memiliki potensi besar untuk mengembangkan
+            sektor perikanan sekaligus membuka peluang usaha kuliner berbasis
+            olahan hasil laut.
           </p>
         </div>
         <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
@@ -141,9 +142,10 @@
             class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
           />
           <p class="text-gray-600 mt-4">
-            Pantai Cirewang merupakan destinasi wisata alam unggulan dengan
-            keindahan pantai, hutan mangrove, dan suasana asri yang menjadi daya
-            tarik utama bagi wisatawan lokal maupun mancanegara.
+            Peternakan ayam di desa ini menghasilkan berbagai produk, mulai dari
+            daging ayam segar hingga telur yang memiliki nilai jual tinggi.
+            Selain mendukung ketahanan pangan lokal, sektor ini juga membuka
+            peluang usaha bagi masyarakat.
           </p>
         </div>
         <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
@@ -154,9 +156,10 @@
             class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
           />
           <p class="text-gray-600 mt-4">
-            Pantai Cirewang merupakan destinasi wisata alam unggulan dengan
-            keindahan pantai, hutan mangrove, dan suasana asri yang menjadi daya
-            tarik utama bagi wisatawan lokal maupun mancanegara.
+            Pelelangan ikan di Desa Pangarengan menjadi salah satu pusat
+            aktivitas ekonomi masyarakat pesisir. Setiap harinya, hasil
+            tangkapan nelayan seperti ikan, udang, dan hasil laut lainnya
+            dikumpulkan untuk dilelang.
           </p>
         </div>
         <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
@@ -167,9 +170,10 @@
             class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
           />
           <p class="text-gray-600 mt-4">
-            Pantai Cirewang merupakan destinasi wisata alam unggulan dengan
-            keindahan pantai, hutan mangrove, dan suasana asri yang menjadi daya
-            tarik utama bagi wisatawan lokal maupun mancanegara.
+            Desa Pangarengan juga memiliki potensi unggulan di sektor tambak
+            garam. Berlokasi di kawasan pesisir yang strategis, lahan tambak
+            dimanfaatkan oleh masyarakat untuk memproduksi garam secara
+            tradisional dengan memanfaatkan panas matahari.
           </p>
         </div>
         <div class="bg-white shadow p-6 rounded-xl hover:shadow-lg transition">
@@ -180,9 +184,9 @@
             class="rounded-xl mb-2 w-full object-cover h-[200px] my-4"
           />
           <p class="text-gray-600 mt-4">
-            Pantai Cirewang merupakan destinasi wisata alam unggulan dengan
-            keindahan pantai, hutan mangrove, dan suasana asri yang menjadi daya
-            tarik utama bagi wisatawan lokal maupun mancanegara.
+            Desa Pangarengan juga dikenal dengan beragam produk olahan rumahan
+            yang dibuat secara kreatif oleh masyarakat. Produk ini meliputi
+            makanan ringan, hasil olahan laut, hingga aneka kudapan tradisional.
           </p>
         </div>
       </div>
@@ -249,28 +253,29 @@
 </template>
 
 <script setup>
-import { Swiper, SwiperSlide } from "swiper/vue";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 // Import gambar dari assets
-import hero1 from "~/assets/images/hero1.jpg";
-import hero2 from "~/assets/images/hero2.png";
-import hero3 from "~/assets/images/hero3.png";
-import pertanian from "~/assets/images/pertanian.png";
-import perikanan from "~/assets/images/tambak.jpeg";
-import santunan from "~/assets/images/santunan.jpg";
-import kunjunganMi from "~/assets/images/kunjungan-mi.jpg";
-import beras from "~/assets/images/beras.jpeg";
-import pantaiCirewang from "~/assets/images/pantai-cirewang.jpg";
-import pantaiBoom from "~/assets/images/pantai-boom.jpeg";
-import Pelelangan from "~/assets/images/pelelangan.jpeg";
-import TambakGaram from "~/assets/images/pembuatan-garam.jpeg";
-import PemukimanNelayan from "~/assets/images/pemukiman-nelayan.jpeg";
-import PeternakanAyam from "~/assets/images/peternakan-ayam.jpg";
-import Keripik from "~/assets/images/kripik.jpeg";
-const slides = [hero1, hero2, hero3];
+import hero1 from '~/assets/images/hero1.jpg';
+import hero2 from '~/assets/images/hero2.png';
+import hero3 from '~/assets/images/hero3.png';
+import hero4 from '~/assets/images/hero-4.png';
+import pertanian from '~/assets/images/pertanian.png';
+import perikanan from '~/assets/images/tambak.jpeg';
+import santunan from '~/assets/images/santunan.jpg';
+import kunjunganMi from '~/assets/images/kunjungan-mi.jpg';
+import beras from '~/assets/images/beras.jpeg';
+import pantaiCirewang from '~/assets/images/pantai-cirewang.jpg';
+import pantaiBoom from '~/assets/images/pantai-boom.jpeg';
+import Pelelangan from '~/assets/images/pelelangan.jpeg';
+import TambakGaram from '~/assets/images/pembuatan-garam.jpeg';
+import PemukimanNelayan from '~/assets/images/pemukiman-nelayan.jpeg';
+import PeternakanAyam from '~/assets/images/peternakan-ayam.jpg';
+import Keripik from '~/assets/images/kripik.jpeg';
+const slides = [hero4, hero1, hero3, hero2];
 </script>
