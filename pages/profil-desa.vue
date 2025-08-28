@@ -125,7 +125,7 @@
             alt="Kepala Desa"
             class="w-32 h-32 mx-auto rounded-full mb-4"
           />
-          <h3 class="font-semibold">Ibu Atifah Noorlaela.S.IP</h3>
+          <h3 class="font-semibold">Atifah Noorlaela.S.IP</h3>
           <p class="text-gray-600">Kepala Desa</p>
         </div>
         <div class="bg-white p-6 rounded-xl shadow text-center">
@@ -145,12 +145,16 @@
       >
         <div class="bg-white p-6 rounded-xl shadow text-center">
           <img
-            :src="avatar"
+            :src="Asep"
             alt="Kasie Pemerintahan"
             class="w-24 h-24 mx-auto rounded-full mb-4"
           />
           <h3 class="font-semibold">Asep Susanto</h3>
           <p class="text-gray-600">Kasie Pemerintahan</p>
+          <small>
+            <p class="text-gray-600">Ngatini</p>
+            <p class="text-gray-600 text-tiny">M. Ridwan</p>
+          </small>
         </div>
         <div class="bg-white p-6 rounded-xl shadow text-center">
           <img
@@ -160,6 +164,10 @@
           />
           <h3 class="font-semibold">Haerul Anwar</h3>
           <p class="text-gray-600">Kasie Kesejahteraan</p>
+          <small>
+            <p class="text-gray-600">Sukinah, S. Hum</p>
+            <p class="text-gray-600">Fitroh Sholeha</p>
+          </small>
         </div>
         <div class="bg-white p-6 rounded-xl shadow text-center">
           <img
@@ -169,6 +177,10 @@
           />
           <h3 class="font-semibold">Salim Syarifudin</h3>
           <p class="text-gray-600">Kasie Tata Usaha & Umum</p>
+          <small>
+            <p class="text-gray-600">Adi, S.Pd</p>
+            <p class="text-gray-600">Rizki Darmawan, S.Kom</p>
+          </small>
         </div>
         <div class="bg-white p-6 rounded-xl shadow text-center">
           <img
@@ -178,6 +190,10 @@
           />
           <h3 class="font-semibold">Sumarno</h3>
           <p class="text-gray-600">Kaur Keuangan</p>
+          <small>
+            <p class="text-gray-600">Vina Sulvianita, S.AN</p>
+            <p class="text-gray-600">Tarlan</p>
+          </small>
         </div>
       </div>
 
@@ -187,7 +203,7 @@
       >
         <div class="bg-white p-6 rounded-xl shadow text-center">
           <img
-            :src="avatar"
+            :src="Zaenal"
             alt="Kasun 1"
             class="w-20 h-20 mx-auto rounded-full mb-4"
           />
@@ -205,7 +221,7 @@
         </div>
         <div class="bg-white p-6 rounded-xl shadow text-center">
           <img
-            :src="avatar"
+            :src="Muhidin"
             alt="Kasun 3"
             class="w-20 h-20 mx-auto rounded-full mb-4"
           />
@@ -214,7 +230,7 @@
         </div>
         <div class="bg-white p-6 rounded-xl shadow text-center">
           <img
-            :src="avatar"
+            :src="Ahmadi"
             alt="Kasun 4"
             class="w-20 h-20 mx-auto rounded-full mb-4"
           />
@@ -503,18 +519,22 @@
 </template>
 
 <script setup>
-import hero2 from '~/assets/images/hero2.png';
-import avatar from '~/assets/images/avatar-12.png';
-import Toto from '~/assets/images/pak-toto.png';
-import Iha from '~/assets/images/iha.jpeg';
-import Salim from '~/assets/images/salim.jpeg';
+import hero2 from "~/assets/images/hero2.png";
+import avatar from "~/assets/images/avatar-12.png";
+import Toto from "~/assets/images/pak-toto.png";
+import Iha from "~/assets/images/iha.jpeg";
+import Salim from "~/assets/images/salim.jpeg";
+import Asep from "~/assets/images/asep.jpeg";
+import Muhidin from "~/assets/images/muhidin.png";
+import Ahmadi from "~/assets/images/ahmadi.png";
+import Zaenal from "~/assets/images/zaenal.png";
 
 useHead({
-  title: 'Profil Desa | Desa Pangarengan',
+  title: "Profil Desa | Desa Pangarengan",
   meta: [
     {
-      name: 'description',
-      content: 'Informasi profil Desa Pangarengan, Legonkulon, Subang.',
+      name: "description",
+      content: "Informasi profil Desa Pangarengan, Legonkulon, Subang.",
     },
   ],
 });
