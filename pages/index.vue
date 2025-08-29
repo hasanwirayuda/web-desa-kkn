@@ -253,38 +253,56 @@
 </template>
 
 <script setup>
-import { Swiper, SwiperSlide } from 'swiper/vue';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import { Swiper, SwiperSlide } from "swiper/vue";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 // Import gambar dari assets
-import hero1 from '~/assets/images/hero1.jpg';
-import hero2 from '~/assets/images/hero2.png';
-import hero3 from '~/assets/images/hero3.png';
-import hero4 from '~/assets/images/hero-4.png';
-import pertanian from '~/assets/images/pertanian.png';
-import perikanan from '~/assets/images/tambak.jpeg';
-import santunan from '~/assets/images/santunan.jpg';
-import kunjunganMi from '~/assets/images/kunjungan-mi.jpg';
-import beras from '~/assets/images/beras.jpeg';
-import pantaiCirewang from '~/assets/images/pantai-cirewang.jpg';
-import pantaiBoom from '~/assets/images/pantai-boom.jpeg';
-import Pelelangan from '~/assets/images/pelelangan.jpeg';
-import TambakGaram from '~/assets/images/pembuatan-garam.jpeg';
-import PemukimanNelayan from '~/assets/images/pemukiman-nelayan.jpeg';
-import PeternakanAyam from '~/assets/images/peternakan-ayam.jpg';
-import Keripik from '~/assets/images/kripik.jpeg';
+import hero1 from "~/assets/images/hero1.jpg";
+import hero2 from "~/assets/images/hero2.png";
+import hero3 from "~/assets/images/hero3.png";
+import hero4 from "~/assets/images/hero-4.png";
+import pertanian from "~/assets/images/pertanian.png";
+import perikanan from "~/assets/images/tambak.jpeg";
+import santunan from "~/assets/images/santunan.jpg";
+import kunjunganMi from "~/assets/images/kunjungan-mi.jpg";
+import beras from "~/assets/images/beras.jpeg";
+import pantaiCirewang from "~/assets/images/pantai-cirewang.jpg";
+import pantaiBoom from "~/assets/images/pantai-boom.jpeg";
+import Pelelangan from "~/assets/images/pelelangan.jpeg";
+import TambakGaram from "~/assets/images/pembuatan-garam.jpeg";
+import PemukimanNelayan from "~/assets/images/pemukiman-nelayan.jpeg";
+import PeternakanAyam from "~/assets/images/peternakan-ayam.jpg";
+import Keripik from "~/assets/images/kripik.jpeg";
 const slides = [hero4, hero1, hero3, hero2];
 
 useHead({
-  title: 'Beranda | Desa Pangarengan',
+  ttitle: "Desa Pangarengan - Website Resmi",
   meta: [
     {
-      name: 'description',
-      content: 'Selamat datang di website resmi Desa Pangarengan.',
+      name: "description",
+      content:
+        "Website resmi Desa Pangarengan, informasi desa, potensi, berita, dan layanan masyarakat.",
+    },
+    {
+      name: "keywords",
+      content:
+        "Desa Pangarengan, Legon Kulon, Subang, Pantai Cirewang, Pemerintah Desa",
+    },
+    { property: "og:title", content: "Desa Pangarengan - Website Resmi" },
+    {
+      property: "og:description",
+      content:
+        "Informasi resmi Desa Pangarengan, potensi desa, berita terbaru, dan pelayanan masyarakat.",
+    },
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: "https://desapangarengan.vercel.app/" },
+    {
+      property: "og:image",
+      content: "https://desapangarengan.vercel.app/hero1.jpg",
     },
   ],
 });
