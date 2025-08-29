@@ -121,7 +121,7 @@
       <div class="grid grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
         <div class="bg-white p-6 rounded-xl shadow text-center">
           <img
-            :src="avatar"
+            :src="Kades"
             alt="Kepala Desa"
             class="w-32 h-32 mx-auto rounded-full mb-4"
           />
@@ -130,7 +130,7 @@
         </div>
         <div class="bg-white p-6 rounded-xl shadow text-center">
           <img
-            :src="avatar"
+            :src="Sekdes"
             alt="Sekretaris Desa"
             class="w-32 h-32 mx-auto rounded-full mb-4"
           />
@@ -158,7 +158,7 @@
         </div>
         <div class="bg-white p-6 rounded-xl shadow text-center">
           <img
-            :src="avatar"
+            :src="Hoerul"
             alt="Kasie Kesejahteraan"
             class="w-24 h-24 mx-auto rounded-full mb-4"
           />
@@ -528,6 +528,9 @@ import Asep from "~/assets/images/asep.jpeg";
 import Muhidin from "~/assets/images/muhidin.png";
 import Ahmadi from "~/assets/images/ahmadi.png";
 import Zaenal from "~/assets/images/zaenal.png";
+import Hoerul from "~/assets/images/pak-hoerul.png";
+import Kades from "~/assets/images/ibu-kades.png";
+import Sekdes from "~/assets/images/sekdes.png";
 
 useHead({
   title: "Profil Desa | Desa Pangarengan",
